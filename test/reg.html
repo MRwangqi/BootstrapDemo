@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>注册</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="signin">
+    <div class="signin-head"><img src="images/test/head_120.png" alt="" class="img-circle"></div>
+    <form action="do_reg.php" method="post" class="form-signin" role="form">
+
+
+        <input type="text" class="form-control" placeholder="User.." name="user_name" required autofocus/>
+        <input type="password" class="form-control" placeholder="Password" name="user_pass" required/>
+        <input type="password" class="form-control" placeholder="Repeat password" name="user_repwd" required/>
+
+
+        <div class="guide" style="text-align: right;margin: 20px">
+            Regist in as
+            <select name="select" style="background: none;border: none;color: #ff2222;font-weight: bold;">
+                <option>buyer</option>
+                <option>seller</option>
+            </select>
+        </div>
+
+        <div>
+            <button class="btn btn-lg btn-warning btn-block" type="submit">Register</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

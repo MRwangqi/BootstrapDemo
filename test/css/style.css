@@ -1,0 +1,117 @@
+body {
+    font-family: 'Hiragino Sans GB', 'Microsoft Yahei', "WenQuanYi Micro Hei", SimSun, Tahoma, Arial, Helvetica, STHeiti;
+}
+
+textarea {
+    resize: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.title {
+    padding-left: 30px;
+}
+
+.body-container {
+    margin-bottom: 80px;
+}
+
+.content {
+    margin: 10px;
+}
+
+.guide {
+    color: #014888;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-select {
+    background: none;
+    border: none;
+    color: #014888;
+    font-weight: bold
+}
+
+.userinfo {
+    margin-top: 20px;
+    text-align: center;
+    color: #014888;
+    font-size: 15px;
+}
+
+.bg {
+    width: 100%;
+    border: none;
+    background: #BDE6FF;
+    margin: 5px;
+    padding: 20px;
+    color: #014888;
+    font-weight: bold;
+}
+
+.copyright {
+    background-color: #BDC3C7;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.info-input {
+    border: none;
+    color: #014888;
+}
+
+.info-text {
+    max-width: 330px;
+    padding: 43px 15px 15px 15px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+/*.info-text .checkbox {*/
+/*margin-bottom: 10px;*/
+/*}*/
+
+/*.info-text .checkbox {*/
+/*font-weight: normal;*/
+/*}*/
+
+.info-text .form-control {
+    position: relative;
+    font-size: 14px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*.info-text .form-control:focus {*/
+/*z-index: 2;*/
+/*}*/
+
+.info-text input[type="text"] {
+    border: none;
+    background: #BDE6FF;
+    /*padding-left: 60px;*/
+    color: #014888;
+}
+
+/*input:required:invalid{*/
+/*background: #00ff00;*/
+/*}*/
+/* 有效 */
+/*input:required:valid{*/
+/*background: #ff0000;*/
+/*}*/
+
+.info-text button {
+    border-radius: 0;
+}
+

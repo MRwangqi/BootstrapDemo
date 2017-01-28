@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="signin">
+    <div class="signin-head"><img src="images/test/head_120.png" alt="" class="img-circle"></div>
+    <form action="do_login.php" method="post" class="form-signin" role="form">
+        <input type="text" class="form-control" placeholder="Username.." name="user_name" required="required"
+               autofocus/>
+        <input type="password" class="form-control" placeholder="Password.." name="user_pass" required="required"/>
+
+
+        <div class="guide" style="text-align: right;margin: 20px">
+            Log in as
+            <select name="select" style="background: none;border: none;color: #ff2222;font-weight: bold;">
+                <option>buyer</option>
+                <option>seller</option>
+            </select>
+        </div>
+        <div>
+            <button class="btn btn-lg btn-warning btn-block" type="submit">log in</button>
+            <a href="reg.html" style="margin-top: 30px">Sign up</a>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
